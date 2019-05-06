@@ -22,13 +22,13 @@ public class StudentService {
 		studentDao.updatePW(tid,npw);
 	}
 
-	public void deleteTeacher(Integer tid)
+	public void deletetudent(Integer tid)
 	{
-		studentDao.deleteTeacher(tid);
+		studentDao.deleteStudent(tid);
 	}
 	
-	public void addTeacher(Teacher teacher)
+	public void addStudent(Student student)
 	{
-		studentDao.addTeacher(teacher);
+		studentDao.addStudent(student);
 	}
 }
